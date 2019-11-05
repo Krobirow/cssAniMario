@@ -52,7 +52,7 @@ html, body {
     transform: rotateY(180deg) translateX(-1800px);
 }
 .luigi1 {
-    animation: rev 3s forwards infinite linear reverse;
+    animation: drive 3s forwards infinite linear;
 }
 
 .cloud {
@@ -88,8 +88,3 @@ html, body {
     50% { top: -100px}
     100% { top: -40px}
 }
-
-@keyframes rev {
-    from{ transform: translateX(2000px)}
-    to{transform: translateX(-200px)}
-    }
